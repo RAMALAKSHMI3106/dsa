@@ -21,6 +21,7 @@ public class FloorCeilSortedArray {
         
         System.out.println("Floor = " + floor);
         System.out.println("Ceil = " + ceil);
+        input.close();
     }
 
     static int floor(int[] arr, int target) {

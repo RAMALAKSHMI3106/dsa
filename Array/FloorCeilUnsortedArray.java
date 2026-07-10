@@ -18,6 +18,7 @@ public class FloorCeilUnsortedArray {
         int target = input.nextInt();
 
         getFloorCeil(arr, target);
+        input.close();
     }
 
     private static void getFloorCeil(int arr[], int target) {
