@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Pattern6 {
+  public static void main(String args[]){
+    Scanner in=new Scanner(System.in);
+    System.out.println("Enter N:");
+    int n=in.nextInt();
+    for(int i=0;i<n;i++){
+       for(int j=0;j<n;j++){
+           if(i==0|| i==n-1 || j==0 || j==n-1)
+              System.out.print("*");
+           else
+              System.out.print(" ");
+       }
+       System.out.println();
+     }
+}
+}
+/*
+Pattern6 
+
+C:\Users\USER\Desktop\Java\DSA\Patterns>javac Pattern6.java
+C:\Users\USER\Desktop\Java\DSA\Patterns>java Pattern6
+Enter N:
+5
+*****
+*   *
+*   *
+*   *
+*****
+
+*/
