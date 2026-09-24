@@ -13,6 +13,7 @@ public class Anagram{
            else{
              System.out.println("It is not valid Anagram");
             }
+            in.close();
             
      }
      private static boolean isAnagram(String s,String t){
