@@ -13,6 +13,7 @@ public class LeftTriangle2 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 

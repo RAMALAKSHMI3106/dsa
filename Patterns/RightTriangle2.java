@@ -13,6 +13,7 @@ public class RightTriangle2 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 

@@ -13,6 +13,7 @@ public class NumberPattern4 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 

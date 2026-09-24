@@ -24,6 +24,7 @@ public class NumberPattern7 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 

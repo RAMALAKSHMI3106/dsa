@@ -13,6 +13,7 @@ public class AlphabetPattern2 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 

@@ -13,6 +13,7 @@ public class Pattern2 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 

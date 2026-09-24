@@ -14,6 +14,7 @@ public class NumberPattern6 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 /*

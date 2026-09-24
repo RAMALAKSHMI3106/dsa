@@ -11,6 +11,7 @@ public class AlphabetPattern1 {
        }
        System.out.println();
      }
+     in.close();
 }
 }
 
